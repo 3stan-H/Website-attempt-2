@@ -447,3 +447,123 @@ footer p {
   color: #aaaaaa;
 }
 
+/*AUTO DOOR HTML*/
+
+/*SUMMARY*/
+
+#summary {
+  position: relative;
+}
+
+.section-text-p1{
+  text-indent: 2rem;
+}
+
+/*PICTURES AND VIDEOS*/
+
+#videos {
+  position: relative;
+}
+
+#pictures {
+  position: relative;
+}
+
+.media-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.article1-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.picvid {
+  background-color: #1e1e1e; /* Same as nav and experience cards */
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.picvid:hover {
+  transform: scale(1.02);
+}
+
+.picvid img,
+.picvid video {
+  width: 100%;
+  border-radius: 0.75rem;
+  border: 2px solid #e0e0e0; /* Matches your main text color */
+  background-color: #121212;
+}
+
+/*INTRODUCTION*/
+
+#introduction {
+  position: relative;
+}
+
+/*MATERIALS AND TOOLS*/
+
+#materials {
+  position: relative;
+}
+
+/*HOW IT WORKS*/
+
+#howitworks {
+  position: relative;
+}
+
+/*CHALLENGES AND TAKEAWAYS*/
+
+#challenges {
+  position: relative;
+}
+
+/*FUTURE IMPROVMENTS*/
+
+#future {
+  position: relative;
+}
+
+/*GITHUB BUTTON*/
+
+#github {
+  position: relative;
+}
+
+.btn-3 {
+  transition: all 300ms ease;
+  font-weight: 600;
+  font-size: medium;
+  transition: all 300ms ease;
+  padding: 1.5rem;
+  width: 16rem;
+  border-radius: 2rem;
+  border: #00bfa6 0.1rem solid;
+  cursor: pointer;
+  background: transparent;
+  color: #00bfa6;
+}
+
+.btn-container-3 {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn-3:hover {
+  background: rgba(0, 191, 166, 0.2);
+}

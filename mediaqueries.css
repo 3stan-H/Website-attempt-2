@@ -94,6 +94,55 @@
     font-size: 2rem;
   }
   .text-container {
-    text-align: justify;
+    text-align: center;
+    word-spacing: normal;
+    word-break: break-word;
   }
+
+  #summary,
+  .summary-container {
+    margin-top: 2rem;
+  }
+
+  #pictures, #videos
+  .media-details-container {
+    margin-top: 2rem;
+  }
+
+  #introduction,
+  .intro-container {
+    margin-top: 2rem;
+  }
+
+  #materials,
+  .materials-container {
+    margin-top: 2rem;
+  }
+
+  #howitworks,
+  .howitworks-container {
+    margin-top: 2rem;
+  }
+
+  #challenges,
+  .challenges-container {
+    margin-top: 2rem;
+  }
+
+  #future,
+  .future-container {
+    margin-top: 2rem;
+  }
+
+  #github,
+  .github-container {
+    margin-top: 2rem;
+  }
+
+  .section-text-p1 {
+    text-align: center;
+    word-spacing: normal;
+    word-break: break-word;
+  }
+
 }
