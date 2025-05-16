@@ -277,6 +277,7 @@ section {
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
+  justify-content: center;
 }
 
 .about-details-container {
@@ -302,7 +303,8 @@ section {
 
 .details-containers {
   padding: 1.5rem;
-  flex: 1;
+  flex: 1 1 278px; /* allow growing/shrinking with a min width */
+  max-width: 278px;
   background: #1e1e1e;
   border-radius: 2rem;
   border: 1px solid #333333;
@@ -447,7 +449,7 @@ footer p {
   color: #aaaaaa;
 }
 
-/*AUTO DOOR HTML*/
+/*INDIVIDUAL PROJECTS*/
 
 /*SUMMARY*/
 
@@ -566,4 +568,66 @@ footer p {
 
 .btn-3:hover {
   background: rgba(0, 191, 166, 0.2);
+}
+
+/* ALL PROJECTS*/
+
+/*2024*/
+
+#twenty-four {
+  position: relative;
+}
+
+/*.projects-experience-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects-about-containers {
+  gap: 2rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  justify-content: center;
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  height: 445px;
+}
+
+.projects-color-container {
+  border-color: #333333;
+  background: #1e1e1e;
+}
+
+.projects-details-containers {
+  padding: 1.5rem;
+  flex: 1;
+  background: #1e1e1e;
+  border-radius: 2rem;
+  border: 1px solid #333333;
+  text-align: center;
+  color: white;
+}
+
+.projects-article-container {
+  display: flex;
+  text-align: initial;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 2.5rem;
+  justify-content: space-around;
+}
+
+.projects-project-img {
+  border-radius: 2rem;
+  width: 90%;
+  height: 90%;
+} */
+
+/*2025*/
+
+#twenty-five {
+  position: relative;
 }
