@@ -312,6 +312,15 @@ section {
   color: white;
 }
 
+.details1-containers {
+  padding: 1.5rem;
+  background: #1e1e1e;
+  border-radius: 2rem;
+  border: 1px solid #333333;
+  text-align: center;
+  color: white;
+}
+
 .section-container {
   gap: 4rem;
   height: 80%;
