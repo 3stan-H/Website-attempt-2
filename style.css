@@ -321,6 +321,16 @@ section {
   color: white;
 }
 
+.details2-containers {
+  padding: 1.5rem;
+  background: #1e1e1e;
+  border-radius: 2rem;
+  border: 1px solid #333333;
+  text-align: center;
+  color: white;
+  margin-top: 2rem;
+}
+
 .section-container {
   gap: 4rem;
   height: 80%;
@@ -468,6 +478,7 @@ footer p {
 
 .section-text-p1{
   text-indent: 2rem;
+  padding: 2rem;
 }
 
 /*PICTURES AND VIDEOS*/

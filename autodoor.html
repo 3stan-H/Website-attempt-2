@@ -19,7 +19,7 @@
     <section id="summary">
         <div class="summary-container">
             <h1 class="title">Summary Of Project</h1>
-            <p class="section-text-p1">1-2 lines </p>
+            <p class="section-text-p1">An contactless door which opens once an object is near. This contraption uses an ultrasonic sensor as well as a servo motor</p>
         </div>
         <img
         src="./Assets/arrow.png"
@@ -76,7 +76,10 @@
     <section id="introduction">
         <div class="intro-container">
             <h1 class="title">Brief Introduction</h1>
-            <p class="section-text-p1">1-2 lines</p>
+            <p class="section-text-p1">This automatic door is accessible to everyone as it allows people who 
+            are unable to open doors regularly to easily move through. It also is more hygienic as it removes 
+            the need to touch a door knob or a handle. Although this is very common in the world, this project 
+            is to familiarize myself with arduino as well as the design, execution and coding process.</p>
         </div>
         <img
         src="./Assets/arrow.png"
@@ -88,7 +91,94 @@
     <section id="materials">
         <div class="materials-container">
             <h1 class="title">Materials and Tools</h1>
-            <p class="section-text-p1">1-2 lines</p>
+            <div class="details2-containers">
+            <div class="article-container">
+              <article>
+                <div>
+                  <ul>
+                    <li><h3>Cardboard</h3></li>
+                  </ul>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <ul>
+                    <li><h3>Marker</h3></li>
+                  </ul>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <ul>
+                    <li><h3>Xacto knife</h3></li>
+                  </ul>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <ul>
+                    <li><h3>Tape/Hot Glue</h3></li>
+                  </ul>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <ul>
+                    <li><h3>Ruler</h3></li>
+                  </ul>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <ul>
+                    <li><h3>Arduino Uno</h3></li>
+                  </ul>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <ul>
+                    <li><h3>Wires</h3></li>
+                  </ul>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <ul>
+                    <li><h3>Breadboard</h3></li>
+                  </ul>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <ul>
+                    <li><h3>Ultrasonic Sensor</h3></li>
+                  </ul>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <ul>
+                    <li><h3>Servo Motor</h3></li>
+                  </ul>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <ul>
+                    <li><h3>Servo Motor Arm</h3></li>
+                  </ul>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <ul>
+                    <li><h3>Electronic Device To Code</h3></li>
+                  </ul>
+                </div>
+              </article>
+            </div>
+          </div>
         </div>
         <img
         src="./Assets/arrow.png"
@@ -100,7 +190,14 @@
     <section id="howitworks">
         <div class="howitworks-container">
             <h1 class="title">How It Works</h1>
-            <p class="section-text-p1">1-2 lines</p>
+            <p class="section-text-p1">The door opens when an object is close enough for the ultrasonic
+            sensor to be detected. This "checking" process is constantly happening in a while loop where it is
+            setting the servo motor to its closed position as its default condition. Once an object is detected,
+            the code changes its condition which the angle of the servo motor changes to the open position,
+            swinging the door open. The "checking" process is also running for this loop as it needs to detect 
+            the instant the object moves out of the sensors detection vicinity. Once this happens the defualt 
+            condition will run. This cycle will run until power is no longer supplied to the Arduino Uno.
+            </p>
         </div>
         <img
         src="./Assets/arrow.png"
@@ -112,7 +209,15 @@
     <section id="challenges">
         <div class="challenges-container">
             <h1 class="title">Challenges and Takeaways</h1>
-            <p class="section-text-p1">1-2 lines</p>
+            <p class="section-text-p1">Some challeneges included finding the optimal rest and open position
+            for the servo mortor and how the motor will be attatched to the door. To find the optimal rest 
+            position, the servo motor was first coded at position 0 and slowly increased until the arm was
+            parallel with the door and motor. The next proablem arose and a short term fix was a applied which 
+            was to tape the arm and door together however, the tape could not hold the everthing together without 
+            falling apart. Thus, duct tape had to be bought which was a stronger alternative to hold things together.
+            Once attacthed, the motor was once again coded at serveral positions until a position that reflected an 
+            open position was reached. 
+            </p>
         </div>
         <img
         src="./Assets/arrow.png"
@@ -124,7 +229,10 @@
     <section id="future">
         <div class="future-container">
             <h1 class="title">Future Improvements</h1>
-            <p class="section-text-p1">1-2 lines</p>
+            <p class="section-text-p1">To improve this project, the cardboard door and door frame can be scalled up 
+            to a life sized model with stronger materials. This would also mean stronger motor and adhesive 
+            would be needed such as hot glue. This would also solve many of the placement problems as some objects are 
+            harder to tape which means the object was more free to move around leading to dimensioning errors. 
         </div>
         <img
         src="./Assets/arrow.png"
